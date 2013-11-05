@@ -1,0 +1,7 @@
+parameters:
+#    codemonkey_portfolio.example.class: Codemonkey\PortfolioBundle\Example
+
+services:
+#    codemonkey_portfolio.example:
+#        class: %codemonkey_portfolio.example.class%
+#        arguments: [@service_id, "plain_value", %parameter%]

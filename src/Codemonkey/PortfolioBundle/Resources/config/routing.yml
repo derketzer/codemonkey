@@ -1,0 +1,7 @@
+codemonkey_portfolio_homepage:
+    pattern:  /
+    defaults: { _controller: CodemonkeyPortfolioBundle:Default:index }
+
+codemonkey_portfolio_about:
+    pattern:  /about
+    defaults: { _controller: CodemonkeyPortfolioBundle:Default:about }

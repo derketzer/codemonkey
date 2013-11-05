@@ -1,0 +1,3 @@
+codemonkey_portfolio:
+    resource: "@CodemonkeyPortfolioBundle/Resources/config/routing.yml"
+    prefix:   /

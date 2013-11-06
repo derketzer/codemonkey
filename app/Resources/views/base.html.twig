@@ -23,7 +23,7 @@
         ================================================== -->
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
-            {% stylesheets '@CodemonkeyPortfolioBundle/Resources/public/css/*' output='css/compiled/main.css' %}
+        {% stylesheets '@CodemonkeyPortfolioBundle/Resources/public/css/*' output='css/compiled/main.css' %}
         <link rel="stylesheet" href="{{ asset_url }}" />
         {% endstylesheets %}
     </head>
@@ -35,8 +35,5 @@
         {% javascripts '@CodemonkeyPortfolioBundle/Resources/public/js/*' output='js/compiled/main.js' %}
         <script type="text/javascript" src="{{ asset_url }}"></script>
         {% endjavascripts %}
-
-        <script type="text/javascript" src="{{ asset('bundles/portfolio/js/default.js') }}"></script>
-        <link href="{{ asset('bundles/portfolio/css/default.css') }}" rel="stylesheet" />
     </body>
 </html>

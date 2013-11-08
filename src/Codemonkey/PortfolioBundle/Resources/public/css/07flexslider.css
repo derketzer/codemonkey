@@ -46,7 +46,7 @@ html[xmlns] .slides {display: block;}
 }
 .flexslider.loading {
 	min-height: 100px;
-	background: #fff url(images/preloader.gif) 50% 50% no-repeat;
+	background: #fff url(../images/preloader.gif) 50% 50% no-repeat;
 }
 .flexslider__bordered {
 	padding: 4px;
@@ -209,7 +209,7 @@ html[xmlns] .slides {display: block;}
 .carousel-wrapper {
 	position: relative;
 	padding: 14px 0 20px 0;
-	background: #292520 url(/web/bundles/codemonkeyportfolio/images/pattern.png) 50% 0;
+	background: #292520 url(../images/pattern.png) 50% 0;
 	-webkit-box-shadow: inset 0 4px 0 rgba(0,0,0,.1);
 	-moz-box-shadow: inset 0 4px 0 rgba(0,0,0,.1);
 	box-shadow: inset 0 4px 0 rgba(0,0,0,.1);

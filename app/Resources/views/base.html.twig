@@ -1,3 +1,4 @@
+{# app/app/Resources/views/base.html.twig #}
 <!DOCTYPE html>
 <!--[if IE 7]>                  <html class="ie7 no-js" lang="en">     <![endif]-->
 <!--[if lte IE 8]>              <html class="ie8 no-js" lang="en">     <![endif]-->
@@ -23,16 +24,30 @@
         ================================================== -->
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
-        {% stylesheets '@CodemonkeyPortfolioBundle/Resources/public/css/*' output='css/compiled/main.css' %}
+        {% stylesheets 'bundles/codemonkeyportfolio/css/*' filter="cssrewrite" output='css/main.css' %}
         <link rel="stylesheet" href="{{ asset_url }}" />
         {% endstylesheets %}
     </head>
     <body>
-        {% block body %}{% endblock %}
-        {% block javascripts %}{% endblock %}
+        <!-- BEGIN WRAPPER -->
+        <div id="wrapper">
+            <div id="top-bar" class="top-bar">
+                <div class="container clearfix">
+                    <div class="grid_6 top-txt hidden-phone">
+                        Bienvenido a Codemonkey!
+                    </div>
+                    <div class="grid_6 acc-txt mobile-nomargin">
+                        &iquest;Tienes cuenta? <a href="#">Entra</a> o <a href="#">regístrate</a>
+                    </div>
+                </div>
+            </div>
+
+            {% block body %}{% endblock %}
+        </div>
+        <!-- END WRAPPER -->
 
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-        {% javascripts '@CodemonkeyPortfolioBundle/Resources/public/js/*' output='js/compiled/main.js' %}
+        {% javascripts '@CodemonkeyPortfolioBundle/Resources/public/js/*' output='js/main.js' %}
         <script type="text/javascript" src="{{ asset_url }}"></script>
         {% endjavascripts %}
     </body>

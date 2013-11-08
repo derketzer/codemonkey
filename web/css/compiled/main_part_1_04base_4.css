@@ -27,7 +27,7 @@ html, body {height:100%;}
 
 body {
 	position: relative;
-	background: #f7f6f1 url("/web/bundles/codemonkeyportfolio/images/pattern-bg.gif");
+	background: #f7f6f1 url("/web/bundles/codemonkeyportfolio/css/images/pattern-bg.gif");
 	font: 12px/18px Arial, Helvetica, sans-serif;
 	color: #63615e;
 	-webkit-font-smoothing: antialiased; /* Fix for webkit rendering */

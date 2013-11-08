@@ -1,0 +1,61 @@
+{# src/Codemonkey/PortfolioBundle/Resources/views/Includes/menu.html.twig #}
+<header id="header" class="header">
+
+    <div class="container clearfix">
+
+        <div class="grid_4 mobile-nomargin">
+
+            <div id="logo" class="logo">
+                <!-- Image based Logo -->
+                <a href="index.html"><img src="{{ asset('bundles/codemonkeyportfolio/images/logo.png') }}" alt="Blitz" /></a>
+                <!-- Text based Logo
+                <h1><a href="index.html">Blitz</a></h1> -->
+
+                <p class="tagline">Programación Freelance</p>
+            </div>
+
+        </div>
+
+        <div class="grid_8 mobile-nomargin">
+
+            <nav class="primary clearfix">
+                <!-- Menu -->
+                <ul class="sf-menu">
+                    <li class="current-menu-item">
+                        <a href="{{ path('homepage') }}">{{ 'codemonkey.menu.home'|trans({}, 'navigation') }}</a>
+                    </li>
+
+                    <li>
+                        <a href="">{{ 'codemonkey.menu.services'|trans({}, 'navigation') }}</a>
+                    </li>
+
+                    <li>
+                        <a href="">{{ 'codemonkey.menu.blog'|trans({}, 'navigation') }}</a>
+                        <ul>
+                            <li><a href="">Últimas entradas</a></li>
+                            <li><a href="">Programación</a></li>
+                            <li><a href="">Cookbook</a></li>
+                        </ul>
+                    </li>
+
+                    <li>
+                        <a href="">{{ 'codemonkey.menu.portfolio'|trans({}, 'navigation') }}</a>
+                    </li>
+
+                    <li>
+                        <a href="">{{ 'codemonkey.menu.contact'|trans({}, 'navigation') }}</a>
+                        <ul>
+                            <li><a href="">Sobre mí</a></li>
+                            <li><a href="">CV</a></li>
+                            <li><a href="">Contáctame</a></li>
+                        </ul>
+                    </li>
+                </ul>
+
+            </nav>
+
+        </div>
+
+    </div>
+
+</header>

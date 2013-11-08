@@ -32,7 +32,7 @@ Tags: agency, business, clean, creative, design, layered, light, minimal, modern
 	font-size: 11px;
 	color: #999;
 	border-bottom: 1px solid #1b1815;
-	background: #38332c url(/web/bundles/codemonkeyportfolio/images/pattern.png) 50% 0;
+	background: #38332c url(../images/pattern.png) 50% 0;
 	position: relative;
 }
 	.top-bar:after {
@@ -71,7 +71,7 @@ Tags: agency, business, clean, creative, design, layered, light, minimal, modern
 	border-top: 1px solid #f2f2f0;
 	position: relative;
 	z-index: 5;
-	background: #e5e4df url(/web/bundles/codemonkeyportfolio/images/pattern-bg2.gif);
+	background: #e5e4df url(../images/pattern-bg2.gif);
 	-webkit-box-shadow: inset 0 -1px 0 rgba(255,255,255,.15), 0 1px 3px rgba(0,0,0,.2);
 	-moz-box-shadow: inset 0 -1px 0 rgba(255,255,255,.15), 0 1px 3px rgba(0,0,0,.2);
 	box-shadow: inset 0 -1px 0 rgba(255,255,255,.15), 0 1px 3px rgba(0,0,0,.2);
@@ -140,7 +140,7 @@ nav.primary {
 	background: #605a57 linear-gradient(top, #605a57 0%,#4c4645 100%); /* W3C */
 }
 	.primary__section-inner {
-		background: url(/web/bundles/codemonkeyportfolio/images/pattern.png) 50% 0;
+		background: url(../images/pattern.png) 50% 0;
 		padding: 36px 0;
 	}
 	.primary__section .grid_12 {
@@ -190,7 +190,7 @@ nav.primary {
 /* #Page Title
 ================================================== */
 .page-title {
-	background: #56504e url(/web/bundles/codemonkeyportfolio/images/pattern.png) 50% 0;
+	background: #56504e url(../images/pattern.png) 50% 0;
 	padding: 36px 0 37px 0;
 }
 	.page-title-holder {
@@ -427,7 +427,7 @@ nav.primary {
 				display: block;
 				width: 40px;
 				height: 40px;
-				background: url(web/bundles/codemonkeyportfolio/images/pattern-bg3.png);
+				background: url(../images/pattern-bg3.png);
 				-webkit-border-radius: 50%;
 				-moz-border-radius: 50%;
 				border-radius: 50%;
@@ -845,7 +845,7 @@ nav.primary {
 		padding-left: 30px;
 		background-position:0 50%;
 		background-repeat:no-repeat;
-		background-image:url(images/loader-twitter.gif);
+		background-image:url(../images/loader-twitter.gif);
 	}
 /* Twitter Widget / End */
 
@@ -1258,7 +1258,7 @@ nav.primary {
 .map-canvas {
 	width:100%;
 	height:366px;
-	background: #fff url(images/preloader.gif) 50% 50% no-repeat;
+	background: #fff url(../images/preloader.gif) 50% 50% no-repeat;
 	-webkit-box-sizing:border-box;
 	-moz-box-sizing:border-box;
 	box-sizing:border-box;
@@ -1308,7 +1308,7 @@ nav.primary {
 
 /* Footer Widgets */
 .widgets-footer {
-	background: #38332c url(/web/bundles/codemonkeyportfolio/images/pattern.png) 50% 0;
+	background: #38332c url(../images/pattern.png) 50% 0;
 	padding: 56px 0;
 	-webkit-box-shadow: inset 0 4px 0 rgba(0,0,0,.2);
 	-moz-box-shadow: inset 0 4px 0 rgba(0,0,0,.2);
@@ -1477,7 +1477,7 @@ nav.primary {
 	-webkit-box-shadow: inset 0 2px 0 rgba(0,0,0,.1);
 	-moz-box-shadow: inset 0 2px 0 rgba(0,0,0,.1);
 	box-shadow: inset 0 2px 0 rgba(0,0,0,.1);
-	background: #292520 url(/web/bundles/codemonkeyportfolio/images/pattern.png) 50% 0;
+	background: #292520 url(../images/pattern.png) 50% 0;
 	color: #63615e;
 }
 	.copyright-primary {
@@ -1842,7 +1842,7 @@ nav.primary {
 			-webkit-border-radius: 50%;
 			-moz-border-radius: 50%;
 			border-radius: 50%;
-			background: url(web/bundles/codemonkeyportfolio/images/pattern-bg3.png);
+			background: url(../images/pattern-bg3.png);
 		}
 	.ico-box hgroup {
 		margin-bottom: 16px;

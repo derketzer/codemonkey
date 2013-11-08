@@ -27,7 +27,7 @@ html, body {height:100%;}
 
 body {
 	position: relative;
-	background: #f7f6f1 url("/web/bundles/codemonkeyportfolio/images/pattern-bg.gif");
+	background: #f7f6f1 url("../images/pattern-bg.gif");
 	font: 12px/18px Arial, Helvetica, sans-serif;
 	color: #63615e;
 	-webkit-font-smoothing: antialiased; /* Fix for webkit rendering */
@@ -577,7 +577,7 @@ input[type="button"]:hover {
 }
 .button-inner {
 	display: inline-block;
-	background: url(web/bundles/codemonkeyportfolio/images/pattern-bg3.png);
+	background: url(../images/pattern-bg3.png);
 	padding: 5px 17px;
 	-webkit-border-radius: 3px;
 	-moz-border-radius: 3px;
@@ -690,7 +690,7 @@ input[type="button"].button__small {
 		background: none;
 	}
 	.button__tertiary:hover .button-inner {
-		background: url(web/bundles/codemonkeyportfolio/images/pattern-bg3.png);
+		background: url(../images/pattern-bg3.png);
 	}
 
 .button__icon {
@@ -807,7 +807,7 @@ table th {
 		display: block;
 		width: 40px;
 		height: 40px;
-		background: url(web/bundles/codemonkeyportfolio/images/pattern-bg3.png);
+		background: url(../images/pattern-bg3.png);
 		-webkit-border-radius: 50%;
 		-moz-border-radius: 50%;
 		border-radius: 50%;
@@ -1040,7 +1040,7 @@ table th {
 	.progress-bar-value {
 		height: 30px;
 		float: left;
-		background-image: url(web/bundles/codemonkeyportfolio/images/pattern-bg3.png);
+		background-image: url(../images/pattern-bg3.png);
 		background-repeat: repeat;
 		background-position: 0 0;
 		background-color: #b8622b;

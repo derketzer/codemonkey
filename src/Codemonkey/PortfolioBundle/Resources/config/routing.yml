@@ -1,7 +1,17 @@
-codemonkey_portfolio_homepage:
-    pattern:  /
-    defaults: { _controller: CodemonkeyPortfolioBundle:Default:index }
+homepage:
+    pattern:  /{_locale}
+    defaults: { _controller: CodemonkeyPortfolioBundle:Default:index, _locale: es }
+    requirements:
+            _locale: es|de|en
 
-codemonkey_portfolio_about:
-    pattern:  /about
+about:
+    pattern:  /{_locale}/about
     defaults: { _controller: CodemonkeyPortfolioBundle:Default:about }
+    requirements:
+            _locale: es|de|en
+
+contact:
+    pattern:  /{_locale}/contact
+    defaults: { _controller: CodemonkeyPortfolioBundle:Default:contact }
+    requirements:
+            _locale: es|de|en

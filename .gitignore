@@ -2,16 +2,18 @@
 app/bootstrap*
 
 # Symfony directories
-# vendor/*
-app/logs/*
-app/cache/*
+vendor/*
+*/logs/*
+*/cache/*
 web/uploads/*
 web/bundles/*
-app/bootstrap*
 
 # Configuration files
 app/config/parameters.ini
 app/config/parameters.yml
+
+# Composer
+composer.phar
 
 # PHPStrom
 .idea/

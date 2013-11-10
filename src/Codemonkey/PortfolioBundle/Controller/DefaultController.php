@@ -8,7 +8,11 @@ class DefaultController extends Controller
 {
     public function indexAction()
     {
-        return $this->render('CodemonkeyPortfolioBundle:Default:index.html.twig');
+        $posts = $this->getDoctrine()
+            ->getRepository('CodemonkeyPortfolioBundle:Post')
+            ->findBy(array(), array("date"=>"DESC"), 3, 0);
+
+        return $this->render('CodemonkeyPortfolioBundle:Default:index.html.twig', array("posts"=>$posts));
     }
 
     public function aboutAction()

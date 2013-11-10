@@ -15,3 +15,9 @@ contact:
     defaults: { _controller: CodemonkeyPortfolioBundle:Default:contact }
     requirements:
             _locale: es|de|en
+
+posts:
+    pattern:  /{_locale}/posts
+    defaults: { _controller: CodemonkeyPortfolioBundle:Default:posts }
+    requirements:
+            _locale: es|de|en

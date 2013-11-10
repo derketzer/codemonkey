@@ -17,3 +17,6 @@ composer.phar
 
 # PHPStrom
 .idea/
+
+# Entities Backup
+*.php~

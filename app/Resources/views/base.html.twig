@@ -6,10 +6,6 @@
     <head>
         <meta charset="UTF-8" />
         <title>{% block title %}Code Monkey | Si tuvieramos infinito tiempo, programaríamos el mundo.{% endblock %}</title>
-        {% block stylesheets %}{% endblock %}
-
-        <!-- Favicons
-	================================================== -->
         <link rel="shortcut icon" href="{{ asset('images/favicon.ico') }}">
         <link rel="apple-touch-icon" href="{{ asset('images/apple-touch-icon.png') }}">
         <link rel="apple-touch-icon" sizes="72x72" href="{{ asset('images/apple-touch-icon-72x72.png') }}">
@@ -20,8 +16,6 @@
         <meta name="author" content="">
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 
-        <!-- Mobile Specific Metas
-        ================================================== -->
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
         {% stylesheets 'bundles/codemonkeyportfolio/css/*' filter="cssrewrite" output='css/main.css' %}
@@ -43,6 +37,89 @@
             </div>
 
             {% block body %}{% endblock %}
+
+            <!-- BEGIN FOOTER -->
+            <footer id="footer" class="footer">
+                <!-- Footer Widgets -->
+                <div class="widgets-footer">
+                    <div class="container clearfix">
+                        <div class="grid_3">
+                            <!-- Social Widget -->
+                            <div class="social-widget widget widget__footer">
+                                <h3 class="widget-title">Redes Sociales</h3>
+                                <div class="widget-content">
+                                    <ul class="social-links">
+                                        <li class="link-twitter"><a href="https://www.twitter.com/der_ketzer"><i class="icon-twitter"></i></a></li>
+                                        <li class="link-facebook"><a href="https://www.facebook.com/derketzer"><i class="icon-facebook"></i></a></li>
+                                        <li class="link-google"><a href="https://plus.google.com/+DerKetzerd"><i class="icon-google-plus"></i></a></li>
+                                        <li class="link-rss"><a href="#"><i class="icon-rss"></i></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <!-- /Social Widget -->
+                        </div>
+                        <div class="grid_3">
+                            <!-- Twitter Widget -->
+                            <div class="twitter-widget widget widget__footer">
+                                <h3 class="widget-title">Twitter</h3>
+                                <div class="widget-content">
+                                    <a class="twitter-timeline" data-dnt="true" href="https://twitter.com/der_ketzer"  data-widget-id="399406678853963776">Tweets von @der_ketzer</a>
+                                    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+                                </div>
+                            </div>
+                            <!-- /Twitter Widget -->
+                        </div>
+
+                        <div class="grid_3">
+                            <!-- Recent Post Widget -->
+                            <div class="recent-posts widget widget__footer">
+                                <h3 class="widget-title">Posts destacados</h3>
+                                <div class="widget-content">
+                                    <ul class="recent-posts-list">
+                                        <li><a href="#">Lorem ipsum dolor sit amet, consectetur</a></li>
+                                        <li><a href="#">Aenean justo mauris, rhoncus nec tempor convallis</a></li>
+                                        <li><a href="#">Nulla euismod ullamcorper tortor, sed aliquam</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <!-- /Recent Post Widget -->
+                        </div>
+
+                        <div class="grid_3">
+                            <!-- Recent Post Widget -->
+                            <div class="recent-posts widget widget__footer">
+                                <h3 class="widget-title">Leyendo en este momento</h3>
+                                <div class="widget-content">
+                                    <a href="www.amazon.com.mx/Data-Mining-Techniques-CRM-Segmentation-ebook/dp/B005UQLI6E/ref=sr_1_3">
+                                        <img src="{{ asset('bundles/codemonkeyportfolio/images/book_cover/book1.jpg') }}" />
+                                    </a>
+                                </div>
+                            </div>
+                            <!-- /Recent Post Widget -->
+                        </div>
+                    </div>
+                </div>
+                <!-- /Footer Widgets -->
+
+                <!-- Copyright -->
+                <div class="copyright">
+                    <div class="container clearfix">
+                        <div class="grid_12 mobile-nomargin">
+                            <div class="clearfix">
+                                <div class="copyright-primary">
+                                    codemonkey &copy; 2013
+                                </div>
+                                <div class="copyright-secondary">
+                                    Created by <a href="http://themeforest.net/user/dan_fisher">Dan Fisher</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- /Copyright -->
+
+            </footer>
+            <!-- END FOOTER -->
         </div>
         <!-- END WRAPPER -->
 

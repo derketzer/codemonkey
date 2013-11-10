@@ -1,0 +1,27 @@
+{# src/Codemonkey/PortfolioBundle/Resources/views/Includes/last_news.html.twig #}
+<div class="grid_4 mobile-nomargin">
+    <h3>Últimas entradas</h3>
+    <ul class="thumbs-list">
+        {% for post in posts %}
+        <li class="list-item clearfix">
+            <figure class="item-thumb">
+                <a href="#">
+                    <img src="{{ post.image }}" height="74" width="74" alt="" />
+                </a>
+            </figure>
+            <span class="date"></span>
+            <h5 class="item-heading">
+                <a href="#">{{ post.title }}</a>
+            </h5>
+        </li>
+        {% endfor %}
+    </ul>
+    <div class="right">
+        <a href="{{ path('posts') }}" class="button">
+            <span class="button-inner">
+                Ver todas las entradas
+            </span>
+        </a>
+    </div>
+
+</div>

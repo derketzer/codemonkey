@@ -3,395 +3,141 @@
 
 {% block body %}
     <div class="main-box">
-
         {# Include Menu file #}
         {{ include('CodemonkeyPortfolioBundle:Includes:menu.html.twig') }}
 
         {# Include Slider file #}
         {{ include('CodemonkeyPortfolioBundle:Includes:slider.html.twig') }}
 
-    <!-- BEGIN CONTENT WRAPPER -->
-    <div id="content-wrapper" class="content-wrapper">
-    <div class="container">
+        <!-- BEGIN CONTENT WRAPPER -->
+        <div id="content-wrapper" class="content-wrapper">
+            <div class="container">
+                <!-- Secondary Content -->
+                <div class="clearfix">
+                    <div class="grid_8">
+                        <hgroup>
+                            <h2>Bienvenido a Codemonkey!</h2>
+                            <h3>Si tuviéramos infinito tiempo, programaríamos el mundo.</h3>
+                        </hgroup>
 
+                        <p>
+                            En Codemonkey nos dedicamos a generar soluciones que faciliten el trabajo y la labor de
+                            nuestros clientes.<br />
+                            Enfocados principalmente en los resultados y el cliente, planeamos proyectos de principio a
+                            fin con la intención de proveer el mejor retorno de inversión.
+                        </p>
 
-    <!-- Main blockquote -->
-    <div class="quote-holder clearfix">
-        <div class="grid_4 quote-thumbs-wrapper">
-            <figure class="thumb thumb-first">
-                <img src="http://placehold.it/206x141" height="141" width="206" alt="">
-            </figure>
-            <figure class="thumb">
-                <img src="http://placehold.it/206x141" height="141" width="206" alt="">
-            </figure>
-        </div>
-        <div class="grid_8 mobile-nomargin">
-            <blockquote class="bq-alt">
-                <p>Lorem ipsum dolor sit amet, consectetur elit. Proin odio erat, <a href="#">facilisis a aliquet</a> vel, tempus sit amet sem. Praesent non justo adipiscing.</p>
-                <cite><strong>John Doe</strong>, CEO Blitz LTD</cite>
-            </blockquote>
-        </div>
-    </div>
-    <!-- /Main blockquote -->
+                        <p>
+                            <b>Su proyecto, nuestro compromiso.</b><br />
+                            Utilizando las mejores prácticas de la industria para brindar el mejor servicio, ajustándonos
+                            a tiempos reales de desarrollo - rápidos y efectivos - así como el uso de tecnologías de
+                            vanguardia que proveen soluciones escalables y de alto impacto.
+                        </p>
 
-    <!-- Horizontal Rule (double) -->
-    <div class="hr hr__double">
-        <div class="hr-first"></div>
-        <div class="hr-second"></div>
-    </div>
-    <!-- Horizontal Rule (double) / End -->
+                        <div class="hr"></div>
 
-    <!-- Secondary Content -->
-    <div class="clearfix">
-        <div class="grid_8">
-            <hgroup>
-                <h2>Welcome to Blitz!</h2>
-                <h3>Adipiscing maurise phartra cumsan.</h3>
-            </hgroup>
-            <p>Malesuada donec umet lorem. Doloronec tetuer malesg elit mauris sifer metum. Telus eget elemtum.  Duis turpis. Integer rutrum ante eun lacus conctetuer. Mauris fermentum dictum magna.  Vivamus aliquet ornare ultricies. Maecenas sit amet nibh dui. Aenean gravida nisl non sapien lobortis tincidunt.</p>
-
-            Sed id justo neque aecenas convallis lectus vitae metus tempus tempor lobortis et imperdiet in, aliquet non magna. Ut vitae odio vitae enim posuere cursus.  Aliquam pretium dictum venenatis. Curabitur sit amet nisl mi. Praesent nec orci et ipsum sodales cursus. Pellentesque dapibus vestibulum elit eu interdum. Vivamus lacus odio, fringilla quis dignissim a, tempor eget nunc.
-
-            <div class="hr"></div>
-
-            <div class="clearfix">
-                <div class="grid_4 alpha">
-                    <!-- Icon Box -->
-                    <div class="ico-box">
-                        <div class="ico-holder">
-                            <div class="ico-holder-inner">
-                                <i class="icon-lightbulb"></i>
+                        <div class="clearfix">
+                            <div class="grid_4 alpha">
+                                <!-- Icon Box -->
+                                <div class="ico-box">
+                                    <div class="ico-holder">
+                                        <div class="ico-holder-inner">
+                                            <i class="icon-money"></i>
+                                        </div>
+                                        <div class="ico-holder-back"></div>
+                                    </div>
+                                    <div class="ico-body inner-wrapper">
+                                        <hgroup>
+                                            <h4>Cuidamos su bolsillo</h4>
+                                        </hgroup>
+                                        <p>
+                                            Ofreciendo rapidez de respuesta, desarrollo e implementación. Así como bajo
+                                            costo manteniendo altos estándares de calidad para proveer un mayor retorno
+                                            de inversión al cliente.
+                                        </p>
+                                    </div>
+                                </div>
+                                <!-- Icon Box / End -->
                             </div>
-                            <div class="ico-holder-back"></div>
-                        </div>
-                        <div class="ico-body inner-wrapper">
-                            <hgroup>
-                                <h4>Exclusive Approach</h4>
-                                <h5>Lorem ipsum dolor</h5>
-                            </hgroup>
-                            <p>Adipiscing maurise phartra cumsan. Malesuada donec umet lorem. Doloronec tetuer malesg elit.</p>
-                            <a href="#" class="link">Read More <i class="icon-chevron-sign-right"></i></a>
+
+                            <div class="grid_4 omega">
+                                <!-- Icon Box -->
+                                <div class="ico-box">
+                                    <div class="ico-holder">
+                                        <div class="ico-holder-inner">
+                                            <i class="icon-html5"></i>
+                                        </div>
+                                        <div class="ico-holder-back"></div>
+                                    </div>
+                                    <div class="ico-body inner-wrapper">
+                                        <hgroup>
+                                            <h4>Full Stack</h4>
+                                        </hgroup>
+                                        <p>
+                                            Soluciones integrales desde la planeación y desarrollo del proyecto, hasta su
+                                            integración con redes sociales, configuración de servidor, SEO y mantenimiento.
+                                        </p>
+                                    </div>
+                                </div>
+                                <!-- Icon Box / End -->
+                            </div>
                         </div>
                     </div>
-                    <!-- Icon Box / End -->
+
+                    {# Include Last Posts file #}
+                    {{ include('CodemonkeyPortfolioBundle:Includes:last_posts.html.twig') }}
                 </div>
-                <div class="grid_4 omega">
-                    <!-- Icon Box -->
-                    <div class="ico-box">
-                        <div class="ico-holder">
-                            <div class="ico-holder-inner">
-                                <i class="icon-leaf"></i>
+                <!-- Secondary Content / End -->
+
+                <!-- Horizontal Rule (double) -->
+                <div class="hr hr__double">
+                    <div class="hr-first"></div>
+                    <div class="hr-second"></div>
+                </div>
+                <!-- Horizontal Rule (double) / End -->
+
+                {# Include Latest Projects file #}
+                {{ include('CodemonkeyPortfolioBundle:Includes:latest_projects.html.twig') }}
+
+                <!-- Horizontal Rule (double) -->
+                <div class="hr hr__double">
+                    <div class="hr-first"></div>
+                    <div class="hr-second"></div>
+                </div>
+                <!-- Horizontal Rule (double) / End -->
+
+
+                {# <!-- Clients -->
+                <div class="clearfix">
+                    <div class="clients">
+                        <div class="grid_12">
+                            <h3>Our Clients</h3>
+                            <div class="list-carousel carousel__clients">
+                                <ul id="clients">
+                                    <li><a href="#"><img src="{{ asset('bundles/codemonkeyportfolio/images/samples/client-logo1.png') }}" height="54" width="200" alt=""></a></li>
+                                    <li><a href="#"><img src="{{ asset('bundles/codemonkeyportfolio/images/samples/client-logo2.png') }}" height="54" width="200" alt=""></a></li>
+                                    <li><a href="#"><img src="{{ asset('bundles/codemonkeyportfolio/images/samples/client-logo3.png') }}" height="54" width="200" alt=""></a></li>
+                                    <li><a href="#"><img src="{{ asset('bundles/codemonkeyportfolio/images/samples/client-logo4.png') }}" height="54" width="200" alt=""></a></li>
+                                    <li><a href="#"><img src="{{ asset('bundles/codemonkeyportfolio/images/samples/client-logo5.png') }}" height="54" width="200" alt=""></a></li>
+                                    <li><a href="#"><img src="{{ asset('bundles/codemonkeyportfolio/images/samples/client-logo1.png') }}" height="54" width="200" alt=""></a></li>
+                                    <li><a href="#"><img src="{{ asset('bundles/codemonkeyportfolio/images/samples/client-logo2.png') }}" height="54" width="200" alt=""></a></li>
+                                    <li><a href="#"><img src="{{ asset('bundles/codemonkeyportfolio/images/samples/client-logo3.png') }}" height="54" width="200" alt=""></a></li>
+                                    <li><a href="#"><img src="{{ asset('bundles/codemonkeyportfolio/images/samples/client-logo4.png') }}" height="54" width="200" alt=""></a></li>
+                                    <li><a href="#"><img src="{{ asset('bundles/codemonkeyportfolio/images/samples/client-logo5.png') }}" height="54" width="200" alt=""></a></li>
+                                </ul>
+                                <div class="carousel-nav">
+                                    <a id="prev1" class="prev" href="#"><i class="icon-chevron-left"></i></a>
+                                    <a id="next1" class="next" href="#"><i class="icon-chevron-right"></i></a>
+                                </div>
                             </div>
-                            <div class="ico-holder-back"></div>
-                        </div>
-                        <div class="ico-body inner-wrapper">
-                            <hgroup>
-                                <h4>Easy to Customize</h4>
-                                <h5>Lorem ipsum dolor</h5>
-                            </hgroup>
-                            <p>Adipiscing maurise phartra cumsan. Malesuada donec umet lorem. Doloronec tetuer malesg elit.</p>
-                            <a href="#" class="link">Read More <i class="icon-chevron-sign-right"></i></a>
                         </div>
                     </div>
-                    <!-- Icon Box / End -->
                 </div>
+                <!-- Clients / End --> #}
+
             </div>
 
         </div>
-        <div class="grid_4 mobile-nomargin">
-            <h3>Latest News</h3>
-            <ul class="thumbs-list">
-                <li class="list-item clearfix">
-                    <figure class="item-thumb">
-                        <a href="#"><img src="http://placehold.it/74x74" height="74" width="74" alt=""></a>
-                    </figure>
-                    <span class="date">May 25, 2013</span>
-                    <h5 class="item-heading"><a href="#">Man really surprised by gift</a></h5>
-                </li>
-                <li class="list-item clearfix">
-                    <figure class="item-thumb">
-                        <a href="#"><img src="http://placehold.it/74x74" height="74" width="74" alt=""></a>
-                    </figure>
-                    <span class="date">April 12, 2013</span>
-                    <h5 class="item-heading"><a href="#">NASA’s Curiosity rover finds ‘flower’ on surface of Mars</a></h5>
-                </li>
-                <li class="list-item clearfix">
-                    <figure class="item-thumb">
-                        <a href="#"><img src="http://placehold.it/74x74" height="74" width="74" alt=""></a>
-                    </figure>
-                    <span class="date">March 22, 2013</span>
-                    <h5 class="item-heading"><a href="#">The 8 best Greek yogurts to buy right now</a></h5>
-                </li>
-            </ul>
-            <div class="right">
-                <a href="blog.html" class="button"><span class="button-inner">View All Tips</span></a>
-            </div>
-
-        </div>
+        <!-- END CONTENT WRAPPER -->
     </div>
-    <!-- Secondary Content / End -->
-
-    <!-- Horizontal Rule (double) -->
-    <div class="hr hr__double">
-        <div class="hr-first"></div>
-        <div class="hr-second"></div>
-    </div>
-    <!-- Horizontal Rule (double) / End -->
-
-    <!-- Latest Projects -->
-    <div class="clearfix">
-        <div class="clients">
-            <div class="grid_12 mobile-nomargin">
-                <h3>Latest Projects</h3>
-                <div class="list-carousel carousel__projects">
-                    <ul id="projects-scroller">
-                        <li>
-                            <div class="item-inner">
-                                <figure class="img-holder">
-                                    <img src="http://placehold.it/200x208" height="208" width="200" alt="">
-                                    <div class="overlay">
-                                        <a href="#" class="dlink"><i class="icon-link"></i></a>
-                                        <a href="http://placehold.it/700x430" class="popup-link zoom"><i class="icon-zoom-in"></i></a>
-                                    </div>
-                                </figure>
-                                <h5 class="title"><a href="#">Project #1</a></h5>
-                                <span class="cats"><a href="#">Digital art</a>, <a href="#">Photography</a></span>
-                            </div>
-                        </li>
-                        <li>
-                            <div class="item-inner">
-                                <figure class="img-holder">
-                                    <img src="http://placehold.it/200x208" height="208" width="200" alt="">
-                                    <div class="overlay">
-                                        <a href="#" class="dlink"><i class="icon-link"></i></a>
-                                        <a href="http://placehold.it/700x430" class="popup-link zoom"><i class="icon-zoom-in"></i></a>
-                                    </div>
-                                </figure>
-                                <h5 class="title"><a href="#">Project #2</a></h5>
-                                <span class="cats"><a href="#">Digital art</a>, <a href="#">Photography</a></span>
-                            </div>
-                        </li>
-                        <li>
-                            <div class="item-inner">
-                                <figure class="img-holder">
-                                    <img src="http://placehold.it/200x208" height="208" width="200" alt="">
-                                    <div class="overlay">
-                                        <a href="#" class="dlink"><i class="icon-link"></i></a>
-                                        <a href="http://placehold.it/700x430" class="popup-link zoom"><i class="icon-zoom-in"></i></a>
-                                    </div>
-                                </figure>
-                                <h5 class="title"><a href="#">Project #3</a></h5>
-                                <span class="cats"><a href="#">Digital art</a>, <a href="#">Photography</a></span>
-                            </div>
-                        </li>
-                        <li>
-                            <div class="item-inner">
-                                <figure class="img-holder">
-                                    <img src="http://placehold.it/200x208" height="208" width="200" alt="">
-                                    <div class="overlay">
-                                        <a href="#" class="dlink"><i class="icon-link"></i></a>
-                                        <a href="http://placehold.it/700x430" class="popup-link zoom"><i class="icon-zoom-in"></i></a>
-                                    </div>
-                                </figure>
-                                <h5 class="title"><a href="#">Project #4</a></h5>
-                                <span class="cats"><a href="#">Digital art</a>, <a href="#">Photography</a></span>
-                            </div>
-                        </li>
-                        <li>
-                            <div class="item-inner">
-                                <figure class="img-holder">
-                                    <img src="http://placehold.it/200x208" height="208" width="200" alt="">
-                                    <div class="overlay">
-                                        <a href="#" class="dlink"><i class="icon-link"></i></a>
-                                        <a href="http://placehold.it/700x430" class="popup-link zoom"><i class="icon-zoom-in"></i></a>
-                                    </div>
-                                </figure>
-                                <h5 class="title"><a href="#">Project #1</a></h5>
-                                <span class="cats"><a href="#">Digital art</a>, <a href="#">Photography</a></span>
-                            </div>
-                        </li>
-                        <li>
-                            <div class="item-inner">
-                                <figure class="img-holder">
-                                    <img src="http://placehold.it/200x208" height="208" width="200" alt="">
-                                    <div class="overlay">
-                                        <a href="#" class="dlink"><i class="icon-link"></i></a>
-                                        <a href="http://placehold.it/700x430" class="popup-link zoom"><i class="icon-zoom-in"></i></a>
-                                    </div>
-                                </figure>
-                                <h5 class="title"><a href="#">Project #2</a></h5>
-                                <span class="cats"><a href="#">Digital art</a>, <a href="#">Photography</a></span>
-                            </div>
-                        </li>
-                        <li>
-                            <div class="item-inner">
-                                <figure class="img-holder">
-                                    <img src="http://placehold.it/200x208" height="208" width="200" alt="">
-                                    <div class="overlay">
-                                        <a href="#" class="dlink"><i class="icon-link"></i></a>
-                                        <a href="http://placehold.it/700x430" class="popup-link zoom"><i class="icon-zoom-in"></i></a>
-                                    </div>
-                                </figure>
-                                <h5 class="title"><a href="#">Project #3</a></h5>
-                                <span class="cats"><a href="#">Digital art</a>, <a href="#">Photography</a></span>
-                            </div>
-                        </li>
-                        <li>
-                            <div class="item-inner">
-                                <figure class="img-holder">
-                                    <img src="http://placehold.it/200x208" height="208" width="200" alt="">
-                                    <div class="overlay">
-                                        <a href="#" class="dlink"><i class="icon-link"></i></a>
-                                        <a href="http://placehold.it/700x430" class="popup-link zoom"><i class="icon-zoom-in"></i></a>
-                                    </div>
-                                </figure>
-                                <h5 class="title"><a href="#">Project #4</a></h5>
-                                <span class="cats"><a href="#">Digital art</a>, <a href="#">Photography</a></span>
-                            </div>
-                        </li>
-                    </ul>
-                    <div class="carousel-nav">
-                        <a id="prev2" class="prev" href="#"><i class="icon-chevron-left"></i></a>
-                        <a id="next2" class="next" href="#"><i class="icon-chevron-right"></i></a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Latest Projects / End -->
-
-
-    <!-- Horizontal Rule (double) -->
-    <div class="hr hr__double">
-        <div class="hr-first"></div>
-        <div class="hr-second"></div>
-    </div>
-    <!-- Horizontal Rule (double) / End -->
-
-
-    <!-- Clients -->
-    <div class="clearfix">
-        <div class="clients">
-            <div class="grid_12">
-                <h3>Our Clients</h3>
-                <div class="list-carousel carousel__clients">
-                    <ul id="clients">
-                        <li><a href="#"><img src="{{ asset('bundles/codemonkeyportfolio/images/samples/client-logo1.png') }}" height="54" width="200" alt=""></a></li>
-                        <li><a href="#"><img src="{{ asset('bundles/codemonkeyportfolio/images/samples/client-logo2.png') }}" height="54" width="200" alt=""></a></li>
-                        <li><a href="#"><img src="{{ asset('bundles/codemonkeyportfolio/images/samples/client-logo3.png') }}" height="54" width="200" alt=""></a></li>
-                        <li><a href="#"><img src="{{ asset('bundles/codemonkeyportfolio/images/samples/client-logo4.png') }}" height="54" width="200" alt=""></a></li>
-                        <li><a href="#"><img src="{{ asset('bundles/codemonkeyportfolio/images/samples/client-logo5.png') }}" height="54" width="200" alt=""></a></li>
-                        <li><a href="#"><img src="{{ asset('bundles/codemonkeyportfolio/images/samples/client-logo1.png') }}" height="54" width="200" alt=""></a></li>
-                        <li><a href="#"><img src="{{ asset('bundles/codemonkeyportfolio/images/samples/client-logo2.png') }}" height="54" width="200" alt=""></a></li>
-                        <li><a href="#"><img src="{{ asset('bundles/codemonkeyportfolio/images/samples/client-logo3.png') }}" height="54" width="200" alt=""></a></li>
-                        <li><a href="#"><img src="{{ asset('bundles/codemonkeyportfolio/images/samples/client-logo4.png') }}" height="54" width="200" alt=""></a></li>
-                        <li><a href="#"><img src="{{ asset('bundles/codemonkeyportfolio/images/samples/client-logo5.png') }}" height="54" width="200" alt=""></a></li>
-                    </ul>
-                    <div class="carousel-nav">
-                        <a id="prev1" class="prev" href="#"><i class="icon-chevron-left"></i></a>
-                        <a id="next1" class="next" href="#"><i class="icon-chevron-right"></i></a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Clients / End -->
-
-    </div>
-
-    </div>
-    <!-- END CONTENT WRAPPER -->
-
-    <!-- BEGIN FOOTER -->
-    <footer id="footer" class="footer">
-
-        <!-- Footer Widgets -->
-        <div class="widgets-footer">
-            <div class="container clearfix">
-                <div class="grid_3">
-                    <!-- Social Widget -->
-                    <div class="social-widget widget widget__footer">
-                        <h3 class="widget-title">Social Networks</h3>
-                        <div class="widget-content">
-                            <ul class="social-links">
-                                <li class="link-twitter"><a href="#"><i class="icon-twitter"></i></a></li>
-                                <li class="link-facebook"><a href="#"><i class="icon-facebook"></i></a></li>
-                                <li class="link-google"><a href="#"><i class="icon-google-plus"></i></a></li>
-                                <li class="link-pinterest"><a href="#"><i class="icon-pinterest"></i></a></li>
-                                <li class="link-rss"><a href="#"><i class="icon-rss"></i></a></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <!-- /Social Widget -->
-                    <!-- Contact Widget -->
-                    <div class="contact-widget widget widget__footer">
-                        <h3 class="widget-title">Need an Answer?</h3>
-                        <div class="widget-content">
-                            <span class="phone-num">1-900-1234-5678</span>
-                        </div>
-                    </div>
-                    <!-- /Contact Widget -->
-                </div>
-                <div class="grid_3">
-                    <!-- Twitter Widget -->
-                    <div class="twitter-widget widget widget__footer">
-                        <h3 class="widget-title">Twitter Updates</h3>
-                        <div class="widget-content">
-                            <ul id="twitter-feed" class="twitter_update_list"></ul>
-                        </div>
-                    </div>
-                    <!-- /Twitter Widget -->
-                </div>
-                <div class="grid_3">
-                    <!-- Recent Post Widget -->
-                    <div class="recent-posts widget widget__footer">
-                        <h3 class="widget-title">From the Blog</h3>
-                        <div class="widget-content">
-                            <ul class="recent-posts-list">
-                                <li><a href="#">Lorem ipsum dolor sit amet, consectetur</a></li>
-                                <li><a href="#">Aenean justo mauris, rhoncus nec tempor convallis</a></li>
-                                <li><a href="#">Nulla euismod ullamcorper tortor, sed aliquam</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <!-- /Recent Post Widget -->
-                </div>
-                <div class="grid_3">
-                    <!-- FLickr Widget -->
-                    <div class="flickr-widget widget widget__footer">
-                        <h3 class="widget-title">Flickr</h3>
-                        <div class="widget-content">
-                            <!-- Flickr images will appear here -->
-                            <ul id="flickr" class="thumbs"></ul>
-                        </div>
-                    </div>
-                    <!-- /Flickr Widget -->
-                </div>
-            </div>
-        </div>
-        <!-- /Footer Widgets -->
-
-        <!-- Copyright -->
-        <div class="copyright">
-            <div class="container clearfix">
-                <div class="grid_12 mobile-nomargin">
-                    <div class="clearfix">
-                        <div class="copyright-primary">
-                            Blitz &copy; 2013 <span class="separator">|</span><a href="#">Privacy Policy</a>
-                        </div>
-                        <div class="copyright-secondary">
-                            Created by <a href="http://themeforest.net/user/dan_fisher">Dan Fisher</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- /Copyright -->
-
-    </footer>
-    <!-- END FOOTER -->
-    </div>
-
-
-
 {% endblock %}

@@ -73,12 +73,15 @@
                         <div class="grid_3">
                             <!-- Recent Post Widget -->
                             <div class="recent-posts widget widget__footer">
-                                <h3 class="widget-title">Posts destacados</h3>
+                                <h3 class="widget-title">Música</h3>
                                 <div class="widget-content">
+                                    <iframe src="https://embed.spotify.com/follow/1/?uri=spotify:user:der_ketzer&size=detail&theme=dark&show-count=0" width="300" height="56" scrolling="no" frameborder="0" style="border:none; overflow:hidden;" allowtransparency="true"></iframe>
+                                    <br />
+                                    <br />
                                     <ul class="recent-posts-list">
-                                        <li><a href="#">Lorem ipsum dolor sit amet, consectetur</a></li>
-                                        <li><a href="#">Aenean justo mauris, rhoncus nec tempor convallis</a></li>
-                                        <li><a href="#">Nulla euismod ullamcorper tortor, sed aliquam</a></li>
+                                        {% for song in lastfm %}
+                                            <li><a href="{{ song.url }}">{{ song.name }}</a></li>
+                                        {% endfor %}
                                     </ul>
                                 </div>
                             </div>

@@ -7,7 +7,7 @@
     /**
      * Post
      *
-     * @ORM\Table(name="blog_post")
+     * @ORM\Table(name="cm_post")
      * @ORM\Entity
      */
     class Post{
@@ -27,7 +27,14 @@
         private $title;
 
         /**
-         * @ORM\Column(type="string", length=100)
+         * @ORM\ManyToOne(targetEntity="Image")
+         * @ORM\JoinColumn(name="id_thumb", referencedColumnName="id")
+         */
+        private $thumb;
+
+        /**
+         * @ORM\ManyToOne(targetEntity="Image")
+         * @ORM\JoinColumn(name="id_media", referencedColumnName="id")
          */
         private $image;
 
@@ -40,6 +47,11 @@
          * @ORM\Column(type="text")
          */
         private $body;
+
+        /**
+         * @ORM\Column(type="integer", length=1, options={"default" = 0})
+         */
+        private $published;
     
         /**
          * Get id
@@ -140,6 +152,75 @@
      */
     public function getImage()
     {
-        return $this->image;
+        return $this->image->getUrl();
+    }
+
+    /**
+     * Set media
+     *
+     * @param \Codemonkey\PortfolioBundle\Entity\Image $media
+     * @return Post
+     */
+    public function setMedia(\Codemonkey\PortfolioBundle\Entity\Image $media = null)
+    {
+        $this->media = $media;
+    
+        return $this;
+    }
+
+    /**
+     * Get media
+     *
+     * @return \Codemonkey\PortfolioBundle\Entity\Image 
+     */
+    public function getMedia()
+    {
+        return $this->media->getUrl();
+    }
+
+    /**
+     * Set thumb
+     *
+     * @param \Codemonkey\PortfolioBundle\Entity\Image $thumb
+     * @return Post
+     */
+    public function setThumb(\Codemonkey\PortfolioBundle\Entity\Image $thumb = null)
+    {
+        $this->thumb = $thumb;
+    
+        return $this;
+    }
+
+    /**
+     * Get thumb
+     *
+     * @return \Codemonkey\PortfolioBundle\Entity\Image 
+     */
+    public function getThumb()
+    {
+        return $this->thumb;
+    }
+
+    /**
+     * Set published
+     *
+     * @param integer $published
+     * @return Post
+     */
+    public function setPublished($published)
+    {
+        $this->published = $published;
+    
+        return $this;
+    }
+
+    /**
+     * Get published
+     *
+     * @return integer 
+     */
+    public function getPublished()
+    {
+        return $this->published;
     }
 }

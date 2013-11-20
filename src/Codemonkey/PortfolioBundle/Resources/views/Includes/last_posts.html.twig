@@ -1,6 +1,6 @@
 {# src/Codemonkey/PortfolioBundle/Resources/views/Includes/last_news.html.twig #}
 <div class="grid_4 mobile-nomargin">
-    <h3>Últimas entradas</h3>
+    <h3>{{ 'codemonkey.home.last_posts'|trans({}, 'content') }}</h3>
     <ul class="thumbs-list">
         {% for post in posts %}
         <li class="list-item clearfix">
@@ -19,7 +19,7 @@
     <div class="right">
         <a href="{{ path('posts') }}" class="button">
             <span class="button-inner">
-                Ver todas las entradas
+                {{ 'codemonkey.home.all_entries'|trans({}, 'content') }}
             </span>
         </a>
     </div>

@@ -4880,7 +4880,8 @@ nav.primary {
 		margin-bottom: 10px;
 	}
 		.carousel__projects .img-holder img {
-			width: 100%;
+            max-height: 208px;
+            max-width: 200px;
 			height: auto;
 		}
 		.carousel__projects .overlay {

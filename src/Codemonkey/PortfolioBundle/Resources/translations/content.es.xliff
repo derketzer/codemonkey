@@ -4,35 +4,119 @@
         <body>
             <trans-unit id="1">
                 <source>codemonkey.home.slide1a</source>
-                <target>Home</target>
+                <target>Benvenido a</target>
             </trans-unit>
             <trans-unit id="2">
                 <source>codemonkey.home.slide1b</source>
-                <target>Home</target>
+                <target>Diseño y programación de sitios a la medida</target>
             </trans-unit>
             <trans-unit id="3">
                 <source>codemonkey.home.slide2a</source>
-                <target>Home</target>
+                <target>Compromiso</target>
             </trans-unit>
             <trans-unit id="4">
                 <source>codemonkey.home.slide2b</source>
-                <target>Home</target>
+                <target>con la calidad y el tiempo.</target>
             </trans-unit>
             <trans-unit id="5">
                 <source>codemonkey.home.slide3a</source>
-                <target>Home</target>
+                <target>Pensando en grande</target>
             </trans-unit>
             <trans-unit id="6">
                 <source>codemonkey.home.slide3b</source>
-                <target>Home</target>
+                <target>soluciones particulares.</target>
             </trans-unit>
             <trans-unit id="7">
                 <source>codemonkey.home.slide4a</source>
-                <target>Home</target>
+                <target>Columnas sólidas</target>
             </trans-unit>
             <trans-unit id="8">
                 <source>codemonkey.home.slide4b</source>
-                <target>Home</target>
+                <target>para sostener el camino al éxito.</target>
+            </trans-unit>
+            <trans-unit id="9">
+                <source>codemonkey.home.latest_projects</source>
+                <target>Últimos proyectos</target>
+            </trans-unit>
+            <trans-unit id="10">
+                <source>codemonkey.home.last_posts</source>
+                <target>Últimas entradas</target>
+            </trans-unit>
+            <trans-unit id="11">
+                <source>codemonkey.home.all_entries</source>
+                <target>Ver todas las entradas</target>
+            </trans-unit>
+            <trans-unit id="12">
+                <source>codemonkey.home.slogan</source>
+                <target>Si tuvieramos infinito tiempo, programaríamos el mundo.</target>
+            </trans-unit>
+            <trans-unit id="13">
+                <source>codemonkey.home.welcome_to</source>
+                <target>Bienvenido a Codemonkey!</target>
+            </trans-unit>
+            <trans-unit id="14">
+                <source>codemonkey.home.has_account</source>
+                <target>¿Tienes cuenta?</target>
+            </trans-unit>
+            <trans-unit id="15">
+                <source>codemonkey.home.has_account.enter</source>
+                <target>Entra</target>
+            </trans-unit>
+            <trans-unit id="16">
+                <source>codemonkey.home.has_account.or</source>
+                <target>o</target>
+            </trans-unit>
+            <trans-unit id="17">
+                <source>codemonkey.home.has_account.register</source>
+                <target>regístrate</target>
+            </trans-unit>
+            <trans-unit id="18">
+                <source>codemonkey.home.social_network</source>
+                <target>Redes sociales</target>
+            </trans-unit>
+            <trans-unit id="19">
+                <source>codemonkey.home.music</source>
+                <target>Música</target>
+            </trans-unit>
+            <trans-unit id="20">
+                <source>codemonkey.home.currently_reading</source>
+                <target>Leyendo</target>
+            </trans-unit>
+            <trans-unit id="21">
+                <source>codemonkey.home.site_description1</source>
+                <target>En Codemonkey nos dedicamos a generar soluciones que faciliten el trabajo y la labor de
+                    nuestros clientes.
+                    Enfocados principalmente en los resultados y el cliente, planeamos proyectos de principio a
+                    fin con la intención de proveer el mejor retorno de inversión.</target>
+            </trans-unit>
+            <trans-unit id="22">
+                <source>codemonkey.home.site_description2</source>
+                <target>Su proyecto, nuestro compromiso.</target>
+            </trans-unit>
+            <trans-unit id="23">
+                <source>codemonkey.home.site_description3</source>
+                <target>Utilizando las mejores prácticas de la industria para brindar el mejor servicio, ajustándonos
+                    a tiempos reales de desarrollo - rápidos y efectivos - así como el uso de tecnologías de
+                    vanguardia que proveen soluciones escalables y de alto impacto.</target>
+            </trans-unit>
+            <trans-unit id="24">
+                <source>codemonkey.home.feature_description1a</source>
+                <target>Cuidamos su bolsillo</target>
+            </trans-unit>
+            <trans-unit id="25">
+                <source>codemonkey.home.feature_description1b</source>
+                <target>Ofreciendo rapidez de respuesta, desarrollo e implementación. Así como bajo
+                    costo manteniendo altos estándares de calidad para proveer un mayor retorno
+                    de inversión al cliente.</target>
+            </trans-unit>
+            <trans-unit id="26">
+                <source>codemonkey.home.feature_description2a</source>
+                <target>Full Stack</target>
+            </trans-unit>
+            <trans-unit id="27">
+                <source>codemonkey.home.feature_description2b</source>
+                <target>Soluciones integrales desde la planeación y desarrollo del proyecto, hasta su
+                    integración con redes sociales, configuración de servidor, SEO y mantenimiento.</target>
             </trans-unit>
         </body>
     </file>

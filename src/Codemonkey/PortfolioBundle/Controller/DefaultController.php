@@ -17,8 +17,6 @@ class DefaultController extends Controller
             ->getRepository('CodemonkeyPortfolioBundle:Project')
             ->findBy(array("published"=>1), array("deliveredDate"=>"DESC"), 10, 0);
 
-        print_r($projects);
-
         $lastfmUrl = "http://ws.audioscrobbler.com/2.0/?method=user.getrecenttracks&user=der_ketzerd&api_key=fd881dc565d5719be0f39e92bd70235b&format=json&limit=5";
         $lastfmCacheFile = "/tmp/lastfm_cache.txt";
 

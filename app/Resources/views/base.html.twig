@@ -5,7 +5,7 @@
 <!--[if (gte IE 9)|!(IE)]><!--> <html class="not-ie no-js" lang="en">  <!--<![endif]-->
     <head>
         <meta charset="UTF-8" />
-        <title>{% block title %}Code Monkey | Si tuvieramos infinito tiempo, programaríamos el mundo.{% endblock %}</title>
+        <title>{% block title %}Code Monkey | {{ 'codemonkey.home.slogan'|trans({}, 'content') }}{% endblock %}</title>
         <link rel="shortcut icon" href="{{ asset('images/favicon.ico') }}">
         <link rel="apple-touch-icon" href="{{ asset('images/apple-touch-icon.png') }}">
         <link rel="apple-touch-icon" sizes="72x72" href="{{ asset('images/apple-touch-icon-72x72.png') }}">
@@ -28,10 +28,10 @@
             <div id="top-bar" class="top-bar">
                 <div class="container clearfix">
                     <div class="grid_6 top-txt hidden-phone">
-                        Bienvenido a Codemonkey!
+                        {{ 'codemonkey.home.welcome_to'|trans({}, 'content') }}
                     </div>
                     <div class="grid_6 acc-txt mobile-nomargin">
-                        &iquest;Tienes cuenta? <a href="#">Entra</a> o <a href="#">regístrate</a>
+                        {{ 'codemonkey.home.has_account'|trans({}, 'content') }} <a href="#">{{ 'codemonkey.home.has_account.enter'|trans({}, 'content') }}</a> {{ 'codemonkey.home.has_account.or'|trans({}, 'content') }} <a href="#">{{ 'codemonkey.home.has_account.register'|trans({}, 'content') }}</a>
                     </div>
                 </div>
             </div>
@@ -46,7 +46,7 @@
                         <div class="grid_3">
                             <!-- Social Widget -->
                             <div class="social-widget widget widget__footer">
-                                <h3 class="widget-title">Redes Sociales</h3>
+                                <h3 class="widget-title">{{ 'codemonkey.home.social_network'|trans({}, 'content') }}</h3>
                                 <div class="widget-content">
                                     <ul class="social-links">
                                         <li class="link-twitter"><a href="https://www.twitter.com/der_ketzer"><i class="icon-twitter"></i></a></li>
@@ -73,7 +73,7 @@
                         <div class="grid_3">
                             <!-- Recent Post Widget -->
                             <div class="recent-posts widget widget__footer">
-                                <h3 class="widget-title">Música</h3>
+                                <h3 class="widget-title">{{ 'codemonkey.home.music'|trans({}, 'content') }}</h3>
                                 <div class="widget-content">
                                     <iframe src="https://embed.spotify.com/follow/1/?uri=spotify:user:der_ketzer&size=detail&theme=dark&show-count=0" width="300" height="56" scrolling="no" frameborder="0" style="border:none; overflow:hidden;" allowtransparency="true"></iframe>
                                     <br />
@@ -91,7 +91,7 @@
                         <div class="grid_3">
                             <!-- Recent Post Widget -->
                             <div class="recent-posts widget widget__footer">
-                                <h3 class="widget-title">Leyendo en este momento</h3>
+                                <h3 class="widget-title">{{ 'codemonkey.home.currently_reading'|trans({}, 'content') }}</h3>
                                 <div class="widget-content">
                                     <a href="www.amazon.com.mx/Data-Mining-Techniques-CRM-Segmentation-ebook/dp/B005UQLI6E/ref=sr_1_3">
                                         <img src="{{ asset('bundles/codemonkeyportfolio/images/book_cover/book1.jpg') }}" />
@@ -110,7 +110,7 @@
                         <div class="grid_12 mobile-nomargin">
                             <div class="clearfix">
                                 <div class="copyright-primary">
-                                    codemonkey &copy; 2013
+                                    Codemonkey &copy; 2013
                                 </div>
                                 <div class="copyright-secondary">
                                     Created by <a href="http://themeforest.net/user/dan_fisher">Dan Fisher</a>

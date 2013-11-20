@@ -22,6 +22,34 @@
                 <source>codemonkey.menu.services</source>
                 <target>Servicios</target>
             </trans-unit>
+            <trans-unit id="6">
+                <source>codemonkey.menu.last_posts</source>
+                <target>Últimas entradas</target>
+            </trans-unit>
+            <trans-unit id="7">
+                <source>codemonkey.menu.programming</source>
+                <target>Programación</target>
+            </trans-unit>
+            <trans-unit id="8">
+                <source>codemonkey.menu.cookbook</source>
+                <target>Código</target>
+            </trans-unit>
+            <trans-unit id="9">
+                <source>codemonkey.menu.about_us</source>
+                <target>Sobre nosotros</target>
+            </trans-unit>
+            <trans-unit id="10">
+                <source>codemonkey.menu.cv</source>
+                <target>Curriculum Vitae</target>
+            </trans-unit>
+            <trans-unit id="11">
+                <source>codemonkey.menu.contact_us</source>
+                <target>Contáctenos</target>
+            </trans-unit>
+            <trans-unit id="12">
+                <source>codemonkey.menu.freelance_programming</source>
+                <target>Programación freelance</target>
+            </trans-unit>
         </body>
     </file>
 </xliff>

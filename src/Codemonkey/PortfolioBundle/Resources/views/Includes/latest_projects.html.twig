@@ -2,14 +2,14 @@
 <div class="clearfix">
     <div class="clients">
         <div class="grid_12 mobile-nomargin">
-            <h3>Últimos proyectos</h3>
+            <h3>{{ 'codemonkey.home.latest_projects'|trans({}, 'content') }}</h3>
             <div class="list-carousel carousel__projects">
                 <ul id="projects-scroller">
                     {% for project in projects %}
                     <li>
                         <div class="item-inner">
                             <figure class="img-holder">
-                                <img src="{{ project.thumb.url }}" style="height:208px;width:200px;" height="208" width="200" alt="" />
+                                <img src="{{ project.thumb.url }}" alt="" />
                                 <div class="overlay">
                                     <a href="#" class="dlink">
                                         <i class="icon-link"></i>
@@ -25,7 +25,7 @@
                                 </a>
                             </h5>
                             <span class="cats">
-                                <a href="#">turu</a>
+                                <a href="#"></a>
                             </span>
                         </div>
                     </li>

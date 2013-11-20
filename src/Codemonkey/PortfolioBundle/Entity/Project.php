@@ -43,12 +43,7 @@
         private $image;
 
         /**
-         * @ORM\Column(type="string", length=50)
-         */
-        private $shortDescription;
-
-        /**
-         * @ORM\Column(type="text")
+         * @ORM\ManyToMany(targetEntity="projectDescription", inversedBy="Project")
          */
         private $description;
 
@@ -277,5 +272,78 @@
     public function getPublished()
     {
         return $this->published;
+    }
+    /**
+     * Constructor
+     */
+    public function __construct()
+    {
+        $this->projectDescriptions = new \Doctrine\Common\Collections\ArrayCollection();
+    }
+    
+    /**
+     * Add projectDescriptions
+     *
+     * @param \Codemonkey\PortfolioBundle\Entity\Project_Description $projectDescriptions
+     * @return Project
+     */
+    public function addProjectDescription(\Codemonkey\PortfolioBundle\Entity\Project_Description $projectDescriptions)
+    {
+        $this->projectDescriptions[] = $projectDescriptions;
+    
+        return $this;
+    }
+
+    /**
+     * Remove projectDescriptions
+     *
+     * @param \Codemonkey\PortfolioBundle\Entity\Project_Description $projectDescriptions
+     */
+    public function removeProjectDescription(\Codemonkey\PortfolioBundle\Entity\Project_Description $projectDescriptions)
+    {
+        $this->projectDescriptions->removeElement($projectDescriptions);
+    }
+
+    /**
+     * Get projectDescriptions
+     *
+     * @return \Doctrine\Common\Collections\Collection 
+     */
+    public function getProjectDescriptions()
+    {
+        return $this->projectDescriptions;
+    }
+
+    /**
+     * Get projectDescription
+     *
+     * @return \Doctrine\Common\Collections\Collection 
+     */
+    public function getProjectDescription()
+    {
+        return $this->projectDescription;
+    }
+
+    /**
+     * Add description
+     *
+     * @param \Codemonkey\PortfolioBundle\Entity\projectDescription $description
+     * @return Project
+     */
+    public function addDescription(\Codemonkey\PortfolioBundle\Entity\projectDescription $description)
+    {
+        $this->description[] = $description;
+    
+        return $this;
+    }
+
+    /**
+     * Remove description
+     *
+     * @param \Codemonkey\PortfolioBundle\Entity\projectDescription $description
+     */
+    public function removeDescription(\Codemonkey\PortfolioBundle\Entity\projectDescription $description)
+    {
+        $this->description->removeElement($description);
     }
 }

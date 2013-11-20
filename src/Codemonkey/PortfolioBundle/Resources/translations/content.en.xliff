@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+    <file source-language="en" datatype="plaintext" original="file.ext">
+        <body>
+            <trans-unit id="1">
+                <source>codemonkey.home.slide1a</source>
+                <target>Home</target>
+            </trans-unit>
+            <trans-unit id="2">
+                <source>codemonkey.home.slide1b</source>
+                <target>Home</target>
+            </trans-unit>
+            <trans-unit id="3">
+                <source>codemonkey.home.slide2a</source>
+                <target>Home</target>
+            </trans-unit>
+            <trans-unit id="4">
+                <source>codemonkey.home.slide2b</source>
+                <target>Home</target>
+            </trans-unit>
+            <trans-unit id="5">
+                <source>codemonkey.home.slide3a</source>
+                <target>Home</target>
+            </trans-unit>
+            <trans-unit id="6">
+                <source>codemonkey.home.slide3b</source>
+                <target>Home</target>
+            </trans-unit>
+            <trans-unit id="7">
+                <source>codemonkey.home.slide4a</source>
+                <target>Home</target>
+            </trans-unit>
+            <trans-unit id="8">
+                <source>codemonkey.home.slide4b</source>
+                <target>Home</target>
+            </trans-unit>
+        </body>
+    </file>
+</xliff>

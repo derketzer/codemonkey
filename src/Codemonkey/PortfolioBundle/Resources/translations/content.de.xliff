@@ -118,6 +118,10 @@
                 <target>Soluciones integrales desde la planeación y desarrollo del proyecto, hasta su
                     integración con redes sociales, configuración de servidor, SEO y mantenimiento.</target>
             </trans-unit>
+            <trans-unit id="28">
+                <source>codemonkey.blog.read_more</source>
+                <target>Mehr lesen</target>
+            </trans-unit>
         </body>
     </file>
 </xliff>

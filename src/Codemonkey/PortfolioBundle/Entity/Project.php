@@ -43,7 +43,7 @@
         private $image;
 
         /**
-         * @ORM\ManyToMany(targetEntity="projectDescription", inversedBy="Project")
+         * @ORM\ManyToMany(targetEntity="ProjectDescription")
          */
         private $description;
 

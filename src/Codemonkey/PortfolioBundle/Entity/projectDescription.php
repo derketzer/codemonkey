@@ -10,7 +10,7 @@ use Doctrine\ORM\Mapping as ORM;
  * @ORM\Table(name="cm_project_description")
  * @ORM\Entity
  */
-class projectDescription{
+class ProjectDescription{
     /**
      * @var integer
      *

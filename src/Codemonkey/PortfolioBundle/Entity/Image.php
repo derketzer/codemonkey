@@ -24,6 +24,11 @@
          * @ORM\Column(type="string", length=150)
          */
         private $url;
+
+        /**
+         * @ORM\Column(type="string", length=150)
+         */
+        private $description;
     
     /**
      * Get id
@@ -56,5 +61,28 @@
     public function getUrl()
     {
         return $this->url;
+    }
+
+    /**
+     * Set description
+     *
+     * @param string $description
+     * @return Image
+     */
+    public function setDescription($description)
+    {
+        $this->description = $description;
+    
+        return $this;
+    }
+
+    /**
+     * Get description
+     *
+     * @return string 
+     */
+    public function getDescription()
+    {
+        return $this->description;
     }
 }

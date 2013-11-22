@@ -6,18 +6,18 @@ homepage:
 
 about:
     pattern:  /{_locale}/about
-    defaults: { _controller: CodemonkeyPortfolioBundle:Default:about }
+    defaults: { _controller: CodemonkeyPortfolioBundle:Default:about, _locale: es }
     requirements:
             _locale: es|de|en
 
 contact:
     pattern:  /{_locale}/contact
-    defaults: { _controller: CodemonkeyPortfolioBundle:Default:contact }
+    defaults: { _controller: CodemonkeyPortfolioBundle:Default:contact, _locale: es }
     requirements:
             _locale: es|de|en
 
 posts:
     pattern:  /{_locale}/posts
-    defaults: { _controller: CodemonkeyPortfolioBundle:Default:posts }
+    defaults: { _controller: CodemonkeyPortfolioBundle:Blog:posts, _locale: es }
     requirements:
             _locale: es|de|en
